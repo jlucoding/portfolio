@@ -28,8 +28,8 @@ body {
 .column {
   width: 100%;
   margin: 0px;
-  margin-right: 10px;
-  margin-left: 250px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container{
@@ -41,7 +41,7 @@ body {
 .about {
   display: inline-block;
   text-align: left;
-  width: 50%;
+  width: 80%;
   padding: 20px;
   border: solid rgba(0, 0, 0, .8);
   border-width: 30px;
@@ -54,8 +54,8 @@ body {
   width: 100%;
   border-width: 1px;
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 img{
@@ -71,13 +71,15 @@ img{
 }
 
 .name {
-
+  color: gold;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .project {
   display: inline-block;
   text-align: left;
-  width: 50%;
+  width: 80%;
   padding: 20px;
   border: solid rgba(0, 0, 0, 0.8);
   border-width: 30px;
