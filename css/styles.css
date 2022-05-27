@@ -1,3 +1,14 @@
+.head {
+  text-align: center;
+  background-color: blanchedalmond;
+  width: 45%;
+  border: 
+}
+
+body {
+  background-color: rgb(70, 233, 70);
+}
+
 img{
   max-width: 20%;
 }
