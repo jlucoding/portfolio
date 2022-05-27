@@ -1,19 +1,40 @@
 .head {
+  color: rgb(21, 21, 148);
   text-align: center;
+  font-weight: bold;
+  font-family: Lucida;
   background-color: blanchedalmond;
   width: 45%;
-  border: 
+  border: 30px solid rgb(73, 10, 10);
+  margin: auto;
 }
 
 body {
-  background-color: rgb(70, 233, 70);
-}
+  color: white;
+  background-image: url(../img/seattle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darkblue;
+  }
 
 img{
+  float: left;
   max-width: 20%;
+}
+
+.about {
+  width: 10%
+  border: 20px solid blue;
 }
 
 .name {
 
 }
 
+a:link {
+  color: beige;
+}
+
+a:visited {
+  color: skyblue
+}
