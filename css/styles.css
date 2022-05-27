@@ -1,9 +1,9 @@
 .head {
-  color: darkblue;
+  color: rgb(21, 11, 126);
   text-align: center;
   font-weight: bold;
-  font-family: Lucida;
-  background-color: blanchedalmond;
+  font-family: fantasy;
+  background-color: rgb(241, 167, 58);
   width: 45%;
   border: 20px solid rgb(73, 10, 10);
   margin: auto;
@@ -18,28 +18,51 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: darkblue;
-  box-sizing: border-box;
   }
 
+.header {
+  color: goldenrod;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .column {
-  width: auto;
+  width: 100%;
+  margin: 0px;
   margin-right: 10px;
+  margin-left: 250px;
+}
+
+.container{
+  display: flex;
+  height: auto;
+  margin: auto;
 }
 
 .about {
+  display: inline-block;
   text-align: left;
-  width: 35%;
-  padding: 30px;
+  width: 50%;
+  padding: 20px;
   border: solid rgba(0, 0, 0, .8);
   border-width: 30px;
   background-color: rgba(85, 107, 47, 0.5);
-  margin-bottom: 100px;
+  margin: auto;
   height: auto;
+}
+
+.about p {
+  width: 100%;
+  border-width: 1px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 img{
   float: left;
-  max-width: 20%;
+  max-width: 50%;
+  margin-right: 20px;
+  margin-bottom: 8px;
 }
 
 .centered-image {
@@ -52,18 +75,19 @@ img{
 }
 
 .project {
+  display: inline-block;
   text-align: left;
-  width: 35%;
-  padding: 30px;
+  width: 50%;
+  padding: 20px;
   border: solid rgba(0, 0, 0, 0.8);
   border-width: 30px;
   background-color: rgba(31, 103, 197, 0.5);
-  margin-bottom: 100px;
+  margin: auto;
   height: auto;
 }
 
 a:link {
-  color: beige;
+  color: rgb(179, 120, 11);
 }
 
 a:visited {
