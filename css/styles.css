@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: sans-serif;
   color: white;
   background-image: url(../img/seattle.jpg);
   background-repeat: no-repeat;
@@ -21,16 +21,20 @@ body {
   box-sizing: border-box;
   }
 
+.column {
+  width: auto;
+  margin-right: 10px;
+}
+
 .about {
   text-align: left;
-  width: 50%;
+  width: 35%;
   padding: 30px;
-  border: solid black;
+  border: solid rgba(0, 0, 0, .8);
   border-width: 30px;
-  background-color: darkolivegreen;
+  background-color: rgba(85, 107, 47, 0.5);
   margin-bottom: 100px;
   height: auto;
-  
 }
 
 img{
@@ -45,6 +49,17 @@ img{
 
 .name {
 
+}
+
+.project {
+  text-align: left;
+  width: 35%;
+  padding: 30px;
+  border: solid rgba(0, 0, 0, 0.8);
+  border-width: 30px;
+  background-color: rgba(31, 103, 197, 0.5);
+  margin-bottom: 100px;
+  height: auto;
 }
 
 a:link {
