@@ -4,7 +4,7 @@
 
 ## This is my portfolio's main webpage with an introduction about me and some practices that I've done so far in Epicodus.
 
-#### [Click here]() to check out my portfolio on GitHub
+#### [Click here](https://github.com/jlucoding/portfolio.git) to check out my portfolio on GitHub
 
 ## Technologies Used
 
