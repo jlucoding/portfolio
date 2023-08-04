@@ -1,3 +1,9 @@
+img {
+  display: block;
+  width: 30%;
+  height: auto;
+}
+
 /* .head {
   color: rgb(21, 11, 126);
   text-align: center;
