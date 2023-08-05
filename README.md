@@ -10,6 +10,7 @@
 
 * HTML
 * CSS
+* Bootstrap
 * Markdown
 
 ## Setup/Installation Requirements
@@ -24,4 +25,4 @@
 
 ## License
 
-Copyright (c) May 2022. Jonathan Lu
+Copyright (c) August 2023. Jonathan Lu
