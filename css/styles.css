@@ -1,80 +1,73 @@
-img {
-  display: block;
-  width: 30%;
-  height: auto;
-}
 
-/* .head {
-  color: rgb(21, 11, 126);
-  text-align: center;
-  font-weight: bold;
-  font-family: fantasy;
-  background-color: rgb(241, 167, 58);
-  width: 45%;
-  border: 20px solid rgb(73, 10, 10);
-  margin: auto;
-  margin-bottom: 50px;
-  box-sizing: border-box;
+
+img {
+  float: left;
+  display: block;
+  width: 25%;
+  height: auto;
+  padding: 20px;
+  margin-bottom: 0;
 }
 
 body {
   font-family: sans-serif;
-  color: white;
+  color: rgb(30, 193, 155);
   background-image: url(../img/seattle.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: darkblue
-  }
+}
+
+.page {
+  color: rgb(8, 88, 173);
+  text-align: center;
+  font-weight: bold;
+  font-family: fantasy;
+  padding: 20px;
+  background-color: rgb(241, 167, 58);
+  width: 55%;
+  border: 20px solid rgb(203, 78, 20);
+  margin: auto;
+  margin-bottom: 3%;
+  box-sizing: border-box;
+}
+
+
 
 .header {
   color: goldenrod;
   font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 
 .column {
+  float: left;
   width: 100%;
-  margin: 0px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
-.container{
-  display: flex;
+/* .container{
+  display: block;
   height: auto;
   margin: auto;
-}
+} */
 
 .about {
   display: inline-block;
   text-align: left;
-  width: 80%;
+  width: 45%;
   padding: 20px;
   border: solid rgba(0, 0, 0, .8);
   border-width: 30px;
   background-color: rgba(85, 107, 47, 0.5);
   margin: auto;
   height: auto;
+  box-sizing: border-box;
 }
 
 .about p {
-  width: 100%;
-  border-width: 1px;
   margin: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
 }
 
-img{
-  float: left;
-  max-width: 50%;
-  margin-right: 20px;
-  margin-bottom: 8px;
-}
 
-.centered-image {
-  width: 50%;
-  height: auto;
-}
 
 .name {
   color: gold;
@@ -82,7 +75,7 @@ img{
   font-style: italic;
 }
 
-.project {
+/* .project {
   display: inline-block;
   text-align: left;
   width: 80%;
@@ -92,7 +85,7 @@ img{
   background-color: rgba(31, 103, 197, 0.5);
   margin: auto;
   height: auto;
-}
+} */
 
 a:link {
   color: rgb(179, 120, 11);
@@ -100,4 +93,4 @@ a:link {
 
 a:visited {
   color: skyblue
-} */
+} 
